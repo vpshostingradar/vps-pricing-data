@@ -1,1 +1,20 @@
-provider,plan,type,first_term_price_usd,prepay_term_months,monthly_billing_price_usd,renewal_price_usd,renewal_increase_pct,backups_included,staging_included,email_included,collected_date,source_url
+"VPS Pricing Index — 16 plans across 13 providers, verified 11 August 2026. Baseline: closest available plan to 2 vCPU / 4 GB RAM.",,,,,,,,
+Provider,Plan,Type,First term $/mo,Prepay months,Monthly $/mo,Renewal $/mo,Increase,36-month total $
+SiteGround,StartUp,Shared managed WP,2.99,12,24.99,17.99,502%,467.64
+Hostinger,Cloud Startup,Shared managed WP,7.99,48,27.99,25.99,225%,287.64
+InMotion,VPS 4 (Most Popular),VPS (cPanel),10.99,24,—,26.99,146%,587.64
+Liquid Web,Managed VPS 4 GB,Platform-managed,36,2,72,72,100%,"2,520.00"
+ScalaHosting,Managed Build #1,Platform-managed,29.95,36,54.95,54.95,84%,"1,078.20"
+Hostinger,KVM 2,Raw VPS,8.79,24,24.49,14.99,71%,390.84
+Contabo,Cloud VPS 4 (EUR),Raw VPS,€4.40‡,24,—,€ 5.50,25%,—
+WP Engine,Startup,Premium managed WP,30,12,35,35.00‡,17%,"1,200.00"
+Vultr,Regular 2 vCPU / 4 GB,Raw VPS,20,1,20,20,0%,720
+DigitalOcean,Basic 4 GiB / 2 vCPU,Raw VPS,24,1,24,24,0%,864
+Linode / Akamai,Linode 4 GB,Raw VPS,24,1,24,24,0%,864
+RackNerd,KVM catalog 4 GB,Raw VPS,24.59,1,24.59,24.59,0%,885.24
+Rocket.net,Starter,Premium managed WP,30,1,30,30,0%,"1,080.00"
+Kinsta,Single 20 GB,Premium managed WP,35,1,35,35,0%,"1,260.00"
+Kamatera,Pro,Raw VPS,39,1,39,39,0%,"1,404.00"
+Cloudways,DigitalOcean 4 GB Basic (premium CPU),Platform-managed,54,1,54,54,0%,"1,944.00"
+Liquid Web,Managed VPS 4 GB,Platform-managed,36,2,72,72,100%,"2,520.00"
+Contabo,Cloud VPS 4 (EUR),Raw VPS,€4.40‡,24,—,€ 5.50,25%,—
