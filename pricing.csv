@@ -1,20 +1,21 @@
-"VPS Pricing Index — 16 plans across 13 providers, verified 11 August 2026. Baseline: closest available plan to 2 vCPU / 4 GB RAM.",,,,,,,,
-Provider,Plan,Type,First term $/mo,Prepay months,Monthly $/mo,Renewal $/mo,Increase,36-month total $
-SiteGround,StartUp,Shared managed WP,2.99,12,24.99,17.99,502%,467.64
-Hostinger,Cloud Startup,Shared managed WP,7.99,48,27.99,25.99,225%,287.64
-InMotion,VPS 4 (Most Popular),VPS (cPanel),10.99,24,—,26.99,146%,587.64
-Liquid Web,Managed VPS 4 GB,Platform-managed,36,2,72,72,100%,"2,520.00"
-ScalaHosting,Managed Build #1,Platform-managed,29.95,36,54.95,54.95,84%,"1,078.20"
-Hostinger,KVM 2,Raw VPS,8.79,24,24.49,14.99,71%,390.84
-Contabo,Cloud VPS 4 (EUR),Raw VPS,€4.40‡,24,—,€ 5.50,25%,—
-WP Engine,Startup,Premium managed WP,30,12,35,35.00‡,17%,"1,200.00"
-Vultr,Regular 2 vCPU / 4 GB,Raw VPS,20,1,20,20,0%,720
-DigitalOcean,Basic 4 GiB / 2 vCPU,Raw VPS,24,1,24,24,0%,864
-Linode / Akamai,Linode 4 GB,Raw VPS,24,1,24,24,0%,864
-RackNerd,KVM catalog 4 GB,Raw VPS,24.59,1,24.59,24.59,0%,885.24
-Rocket.net,Starter,Premium managed WP,30,1,30,30,0%,"1,080.00"
-Kinsta,Single 20 GB,Premium managed WP,35,1,35,35,0%,"1,260.00"
-Kamatera,Pro,Raw VPS,39,1,39,39,0%,"1,404.00"
-Cloudways,DigitalOcean 4 GB Basic (premium CPU),Platform-managed,54,1,54,54,0%,"1,944.00"
-Liquid Web,Managed VPS 4 GB,Platform-managed,36,2,72,72,100%,"2,520.00"
-Contabo,Cloud VPS 4 (EUR),Raw VPS,€4.40‡,24,—,€ 5.50,25%,—
+"VPS Pricing Index — 19 plans across 15 providers, verified 15 September 2026. Baseline: closest available plan to 2 vCPU / 4 GB RAM.",,,,,,,,,,
+Provider,Plan,Type,First term $/mo,Prepay months,Monthly $/mo,Renewal $/mo,Increase,36-month total $,Promo,Notes
+SiteGround,StartUp,Shared managed WP,2.99,12,17.99,17.99,502%,467.64,,
+Hostinger,Web Premium,Shared managed WP,2.99,12,11.99,11.99,301%,323.64,,Replaces the Cloud Startup row tracked in August.
+Hostinger,KVM 1,Raw VPS,6.49,24,19.49,19.49,200%,389.64,,"1 vCPU / 4 GB. Replaces KVM 2 (8 GB), which overshot the 4 GB baseline."
+Liquid Web,Managed VPS 4 GB,Platform-managed,36,2,72,72,100%,"2,520.00",,
+InMotion,VPS 4 vCPU,VPS (cPanel),13.99,24,26.99,26.99,93%,659.64,,"Corrects the August row: $10.99 is a shared-hosting tier, not this VPS SKU."
+ScalaHosting,Managed Cloud #1,Platform-managed,29.95,1,54.95,54.95,83%,"1,953.20",,
+ScalaHosting,Unmanaged Config #1,Raw VPS,19.95,1,24.95,24.95,25%,893.20,,New row this cycle.
+WP Engine,Startup,Premium managed WP,28,12,35,35,25%,"1,176.00",,$35 is the published month-to-month list price. WP Engine does not publish a renewal rate; treat as provisional.
+Contabo,Cloud VPS 4 (EUR),Raw VPS,€5.28,24,€6.60,€6.60,25%,€205.92,,VAT-inclusive effective rate on a 24-month term against a EUR 6.60 list price. Excluded from all USD comparisons.
+Vultr,Regular 2 vCPU / 4 GB,Raw VPS,20,1,20,20,0%,720.00,,
+DigitalOcean,Basic 4 GiB / 2 vCPU,Raw VPS,24,1,24,24,0%,864.00,,
+Linode / Akamai,Linode 4 GB,Raw VPS,24,1,24,24,0%,864.00,,North American pricing; Akamai prices by region.
+RackNerd,KVM catalog 4 GB,Raw VPS,24.59,1,24.59,24.59,0%,885.24,,"Annual special is $59.99/yr (about $5.00/mo) for 3 vCPU / 60 GB / 7 TB, but its renewal terms are not stated on the specials page or in the terms of service, so the catalog rate is tracked instead."
+Rocket.net,Starter,Premium managed WP,30,12,30,30,0%,"1,080.00","$1 first month (promotional, excluded from the table)",
+Kinsta,Single 20 GB,Premium managed WP,35,1,35,35,0%,"1,260.00","First month free (promotional, recorded 2026-09-15; excluded from the table per methodology)",
+Kamatera,Pro,Raw VPS,39,1,39,39,0%,"1,404.00",,Kamatera's real pricing is configurator-driven; card rate.
+Cloudways,DigitalOcean 4 GB Basic (premium CPU),Platform-managed,54,1,54,54,0%,"1,944.00",,"September capture recorded the Micro tier (2 GB / 1 vCPU) at $28, which does not match the 2 vCPU / 4 GB baseline; the $54 figure is retained from the 11 Aug 2026 screenshot published on this page."
+SiteGround,Cloud Jump Start (4 CPU / 8 GB / 40 GB),Cloud,100,1,100,100,0%,"3,600.00",,New row this cycle. Overshoots the 4 GB baseline.
+Cloudways,Autonomous Growth,Platform-managed,99,1,99,99,0%,"3,564.00",,New row this cycle. Per-site autoscaling product; no direct 2 vCPU / 4 GB equivalent.
